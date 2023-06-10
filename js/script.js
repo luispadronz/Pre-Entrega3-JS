@@ -14,7 +14,7 @@ function eventListeners() {
 
   document.addEventListener("DOMContentLoaded", () => {
     notas = JSON.parse(localStorage.getItem("notas")) || [];
-    console.log("notas");
+    crearHTML();
   });
 }
 
